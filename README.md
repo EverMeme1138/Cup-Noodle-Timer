@@ -27,7 +27,13 @@ When timing:
 ### User setting
 - Access the .ini file (right click -> edit file) to edit setting.
 
-![image](https://github.com/user-attachments/assets/57940264-479b-42d5-a1fe-17a8c82e24ed)
+```ini
+[Variables]
+scale=0.5
+Stroke_Color=255,255,255
+Fill_Color=0,0,0,1
+Sound_effect=#@#/bbc_clocks--st_07070158.wav
+```
 
 - Color code format: Red, Green, Blue, (Transparency)
 - If transparency is unspecified, it is defaulted as 255 (i.e. solidcolor)
